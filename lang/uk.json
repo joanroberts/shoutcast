@@ -1,0 +1,14 @@
+{
+	"meta": {
+		"charset": "utf-8",
+		"project": "shoutcast 1.1.9",
+		"language": "uk",
+		"plural": "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)"
+	},
+	"data": {
+		"": {
+			"SHOUTcast Radio is the ultimate directory of online radio stations. With over 50,000 music, talk, sports and community radio stations from all over the world, SHOUTcast is unparalleled in the breadth of content available -- no matter where you are -- at the press of a button.": "SHOUTcast радіо є великим каталогом онлайн-радіостанцій. З більш ніж 50 000 аудіозаписів, записів, спортивних та громадських радіостанцій зі всього світу, SHOUTcast не має аналогів за обсягом контенту, доступного - незалежно від того, де ви знаходитесь.",
+			"shoutcast": ""
+		}
+	}
+}
