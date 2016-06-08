@@ -1,7 +1,7 @@
 {
-	"name": "shoutcast",
-	"version": "1.1.10",
-	"description": "SHOUTcast Radio is the ultimate directory of online radio stations. With over 50,000 music, talk, sports and community radio stations from all over the world, SHOUTcast is unparalleled in the breadth of content available -- no matter where you are -- at the press of a button.",
+	"name": "Shoutcast",
+	"version": "1.1.11",
+	"description": "SHOUTcast Radio is the ultimate directory of online radio stations. Over 50,000 music, talk, sports and community radio stations.",
 	"author": {
 		"name": "joanroberts"
 	},
@@ -10,6 +10,7 @@
 		"url": "https://github.com/joanroberts/shoutcast.git"
 	},
 	"dependencies": {
+		"stb-referrer": "https://github.com/stbsdk/referrer.git",
 		"code-proxy": "^1.2.21",
 		"del": "^2.0.0",
 		"gettext-parser": "^1.1.1",
@@ -43,7 +44,23 @@
 		}
 	],
 	"config": {
+		"type": "app",
+		"category": "apps",
 		"backgroundColor": "#49266a",
-		"icons": "icons"
+		"name": "Shoutcast",
+		"legacy": true,
+		"description": "SHOUTcast Radio is the ultimate directory of online radio stations. Over 50,000 music, talk, sports and community radio stations.",
+		"icons": {
+			"paths": {
+				"480": "img/480/",
+				"576": "img/576/",
+				"720": "img/720/",
+				"1080": "img/1080/"
+			},
+			"states": {
+				"normal": "icons/2015.png",
+				"active": "icons/2015.focus.png"
+			}
+		}
 	}
 }
